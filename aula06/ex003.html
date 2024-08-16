@@ -16,8 +16,14 @@
     <h1>Olá, Mundo!</h1>
     <p>Eu estou estudando JavaScript!</p>
     <script>
-        var nome = window.prompt('Qual é o seu nome ?'); // Comando para criar uma caixa de diálogo.
-        window.alert('Obrigado por nos responder ' + nome); //Estamos concatenando a string do alerta com valor recebido pela variável nome.(Usando o operador +)
+        var num1 = Number(window.prompt('Digite um numero: ')); 
+        var num2 = Number(window.prompt('Digite um segundo numero: ')); 
+
+        var result = num1 + num2;
+
+        window.alert(`O resultado da soma entre ${num1} e ${num2} é: ${result}`); //Usando template string
+        //(number + number) - para adição
+        //(string + string) - para concatenação
     </script>
 </body>
 </html>
