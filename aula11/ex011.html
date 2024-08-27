@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sistema de Verificação de Nacionalidade</h1>
+
+    Onde você nasceu: <input type="text" name="nation" id="nation">
+    <input type="button" value="Verification" id="button">
+    <div id="veri"></div>
+</body>
+
+<script>
+    var button = window.document.getElementById('button')
+
+    button.addEventListener('click', verification)
+
+    function verification() {
+        var nation = window.document.getElementById('nation')
+        var nation_value = (nation.value)
+        var verif = window.document.getElementById('veri')
+
+        if(nation_value == 'Brasil') {
+            verif.innerHTML = `<p>\nVocê é Brasileiro</p>`
+        } else {
+            verif.innerHTML = `<p>\nVocê é gringo</p>`
+        }
+
+    }
+</script>
+
+</html>

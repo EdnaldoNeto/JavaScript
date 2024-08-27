@@ -2,7 +2,8 @@ var país = 'Brasil';
 
 console.log(`Eu nasci no ${país}.`)
 
-if (país == 'Brasil')
+// Condição composta
+if (país == 'Brasil') 
 {
     console.log('Você é brasileiro');
 }else {
