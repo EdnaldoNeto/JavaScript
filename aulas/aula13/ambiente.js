@@ -1,4 +1,4 @@
-// Estruras de repetição
+// Estrutura de repetição
 
 var i = 1 //contador
 
