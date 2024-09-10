@@ -9,7 +9,6 @@ function tab()
     var i = 1
     var numero = n.value
     var but1 = document.getElementById('bt1')
-
     if(numero.length <= 0)
     {
         alert('Digite um número')
