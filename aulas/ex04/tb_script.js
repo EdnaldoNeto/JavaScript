@@ -6,7 +6,7 @@ but2.disabled = true
 
 function tab() 
 {
-    var i = 1
+        var i = 1
     var numero = n.value
     var but1 = document.getElementById('bt1')
     if(numero.length <= 0)
@@ -30,4 +30,3 @@ function clean()
     but1.disabled = false
     but2.disabled = true
 }
-
