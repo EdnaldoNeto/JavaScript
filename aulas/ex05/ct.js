@@ -1,6 +1,6 @@
 var inicio = document.getElementById('ini')
 
-function()
+function contar()
 {
 
 }
