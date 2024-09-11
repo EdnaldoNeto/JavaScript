@@ -1,0 +1,22 @@
+body{
+    background-color: dimgrey;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    color: black;
+    width: 450px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.329);
+}
+
+div{
+    text-align: center;
+    padding: 20px;
+}
