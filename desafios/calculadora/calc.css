@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(100, 45, 128);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 60px;
+}
+
+#calculadora {
+    background-color: rgb(177, 177, 177);
+    width: 290px;
+    height: 420px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.377);
+}
+
+#display{
+    width: 260px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(74, 94, 41);
+    font-size: 40px;
+}
+
+#display::-webkit-inner-spin-button{ /*Tirando as setas do input number*/
+    appearance: none;
+}
+
+.but{
+    width: 48px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.342);
+}
+
