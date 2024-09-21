@@ -1,7 +1,8 @@
 var numeros = []
 var buttonA = document.getElementById('anl')
-buttonA.disabled = true
 let resultado = document.getElementById('res2')
+buttonA.disabled = true
+
 function adicionar (){
     let item = document.createElement('option')
     let select = document.getElementById('tab')
