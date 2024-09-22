@@ -10,35 +10,33 @@
     <h1>Calculadora</h1>
 
     <div id="calculadora">
-        <input type="number" name="display" id="display">
+        <input type="text" name="display" id="display">
         
         <button class="but" onclick="clean()">AC</button>
-        <button class="but">%</button>
-        <button class="but">÷</button>
-        <button class="but">x</button>
+        <button onclick="add('%')" class="operadores" class="but">%</button>
+        <button onclick="add('/')" class="operadores" class="but">÷</button>
+        <button onclick="add('*')" class="operadores" class="but">x</button>
         
-        <button class="but">7</button>
-        <button class="but">8</button>
-        <button class="but">9</button>
-        <button class="but">+</button>
+        <button onclick="add(7)" class="but">7</button>
+        <button onclick="add(8)" class="but">8</button>
+        <button onclick="add(9)" class="but">9</button>
+        <button onclick="add('+')" class="operadores" class="but">+</button>
 
-        <button class="but">4</button>
-        <button class="but">5</button>
-        <button class="but">6</button>
-        <button class="but">-</button>
+        <button onclick="add(4)" class="but">4</button>
+        <button onclick="add(5)" class="but">5</button>
+        <button onclick="add(6)" class="but">6</button>
+        <button onclick="add('-')" class="operadores" class="but">-</button>
 
-        <button class="but">1</button>
-        <button class="but">2</button>
-        <button class="but">3</button>
-        <button id="igual" class="but">=</button>
+        <button onclick="add(1)" class="but">1</button>
+        <button onclick="add(2)" class="but">2</button>
+        <button onclick="add(3)" class="but">3</button>
+        <button onclick="calcular()" class="but">=</button>
 
-        <button class="but">0</button>
-        <button class="but">.</button>
-        <button class="but">&#9888;</button>
+        <button onclick="add('.')"class="but">.</button>
+        <button onclick="add(0)" class="but">0</button>
+        <button class="but" id="alert">&#9888;</button>
         <button class="but">ON</button>
-
-        <script src="calc.js"></script>
     </div>
-    
+    <script src="calc.js"></script>    
 </body>
 </html>
