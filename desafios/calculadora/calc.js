@@ -9,5 +9,13 @@ function add(n){
 }
 
 function calcular(){
-    display.value = eval(display.value)
+    if(display.value){
+        display.value = eval(display.value)
+    } else {
+        display.value = 0
+    }
+}
+
+function on(){
+    display.focus()
 }

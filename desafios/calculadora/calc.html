@@ -10,7 +10,7 @@
     <h1>Calculadora</h1>
 
     <div id="calculadora">
-        <input type="text" name="display" id="display">
+        <input type="text" name="display" id="display" pattern="[0-9]">
         
         <button class="but" onclick="clean()">AC</button>
         <button onclick="add('%')" class="operadores" class="but">%</button>
@@ -35,7 +35,7 @@
         <button onclick="add('.')"class="but">.</button>
         <button onclick="add(0)" class="but">0</button>
         <button class="but" id="alert">&#9888;</button>
-        <button class="but">ON</button>
+        <button onclick="on()" class="but">ON</button>
     </div>
     <script src="calc.js"></script>    
 </body>
