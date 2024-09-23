@@ -10,4 +10,4 @@ function consoante(str){
     }
     console.log(contadorConso)
 }
-consoante('ednaldo')
+consoante('zxcvx')
